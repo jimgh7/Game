@@ -23,7 +23,7 @@ build:
     pull:
     options:
   ci:
-    - gcc Src/main.cpp
+    gcc Src/main.cpp
     - #command2
   post_ci:
     - #command1
