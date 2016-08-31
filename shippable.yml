@@ -24,30 +24,21 @@ build:
     options:
   ci:
     gcc Src/main.cpp
-    - #command2
   post_ci:
-    - #command1
-    - #command2
   on_success:
-    - #command1
-    - #command2  
+    echo "Success"
   on_failure:
-    - #command1
-    - #command2
   cache:
   cache_dir_list:
-    - #dir1
   push:
 
 integrations:
  notifications:
-    - integrationName:
+    integrationName:
       type:
       recipients:
-        - #recp1
-        - #recp2
 
  hub:
-    - integrationName:
+    integrationName:
       type:
       agent_only:
