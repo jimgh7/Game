@@ -23,7 +23,7 @@ build:
     pull:
     options:
   ci:
-    gcc Src/main.cpp
+    g++ Src/main.cpp
   post_ci:
   on_success:
     echo "Success"
