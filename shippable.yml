@@ -5,7 +5,7 @@ c:
 
 
 services:                                       
-  - #any supported service                      
+  #any supported service                      
 
 env:                                                
   - #env1=foo                           
